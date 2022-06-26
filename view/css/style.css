@@ -1,0 +1,261 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.wrapper{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.boxleft{
+    width: 20%;
+    background: #243a76;
+    min-height: 692px;
+    border: 1px solid #243a76;
+}
+.boxleft img{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu ul{
+    padding-left: 0;
+}
+.menu ul .click{
+    list-style: none;
+    width: 100%;
+    padding: 6% 0 6% 10%;
+    margin-bottom: 5px;
+    background: rgb(255, 255, 255);
+}
+.menu ul .click a{
+    color: #243a76;
+    text-decoration: none;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+.menu ul li:hover{
+    list-style: none;
+    width: 100%;
+    padding: 6% 0 6% 10%;
+    margin-bottom: 5px;
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.menu ul li:hover a{
+    color: #243a76;
+    text-decoration: none;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+/* .menu ul li a{
+    
+} */
+.menu ul li{
+    list-style: none;
+    width: 100%;
+    padding: 6% 0 6% 10%;
+    margin-bottom: 5px;
+    background: #243a76;
+}
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+.boxright{
+    width: 80%;
+    background: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    min-height: 692px;
+}
+.linkpage{
+    background: #243a76;
+    width: 99.9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.1%;
+    margin-bottom: 50px;
+}
+.linkpage i{
+    padding: 0.5%;
+}
+.linkpage span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+}
+.boxtitle{
+    font-weight: 900;
+    font-size: 2.5vw;
+    margin: 0 0 50px 50px;
+}
+table{
+    width: 90%;
+    border-collapse:collapse;
+    margin: 0 auto 50px auto;
+}
+.table100{
+    width: 95%;
+    border-collapse:collapse;
+    margin: 0 auto 50px auto;
+}
+.table50{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    
+}.table50 table tbody tr td:nth-child(1){
+    width: 20%;
+}
+.table50 table tbody tr td:nth-child(2){
+    width: 45%;
+}
+.table50 table tbody tr td:nth-child(3){
+    width: 35%;
+}
+.table50 table tbody tr td:nth-child(3) img{
+    width: 100%;
+}
+.rowtable{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+table tr th{
+    border: 1px solid #243a76;
+    background: #243a76;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 1.2vw;
+}
+table tr td{
+    text-align: center;
+    background-color: white;
+    font-size: 1.2vw;
+    padding: 10px 0;
+}
+.QLSP table tr td:nth-child(1){
+    width: 5%;
+}
+.QLSP table tr td:nth-child(2){
+    width: 10%;
+}
+.QLSP table tr td:nth-child(3){
+    width: 20%;
+}
+.QLSP table tr td:nth-child(4){
+    width: 25%;
+}
+.QLSP table tr td:nth-child(5){
+    width: 10%;
+}
+.QLSP table tr td:nth-child(6){
+    width: 15%;
+}
+.QLSP table tr td:nth-child(7){
+    width: 15%;
+}
+.QLSP table tr td img{
+    width: 60%;
+}
+.button{
+    width: 90%;
+    margin: 0px auto 20px 0;
+}
+.btn-primary{
+    background-color: #243a76 !important;
+    border: #243a76 !important ;
+}
+.btn-primary:hover{
+    background-color: #0d6efd!important;
+    border: #0d6efd !important ;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+}
+#myChart{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.thongke table tbody tr th:nth-child(1){
+    width: 10%;
+}
+.thongke table tbody tr th:nth-child(2){
+    width: 15%;
+}
+.thongke table tbody tr th:nth-child(3){
+    width: 15%;
+}
+.thongke table tbody tr th:nth-child(4){
+    width: 20%;
+}
+.thongke table tbody tr th:nth-child(5){
+    width: 20%;
+}
+.thongke table tbody tr th:nth-child(6){
+    width: 20%;
+}
+/* start quản lý bài viết */
+.QLBV table tr th:nth-child(1){
+    width: 5%;
+}
+.QLBV table tr th:nth-child(2){
+    width: 5%;
+}
+.QLBV table tr th:nth-child(3){
+    width: 20%;
+}
+.QLBV table tr th:nth-child(4){
+    width: 20%;
+}
+.QLBV table tr th:nth-child(5){
+    width: 25%;
+}
+.QLBV table tr th:nth-child(6){
+    width: 10%;
+}
+.QLBV table tr th:nth-child(7){
+    width: 10%;
+}
+
+.QLBV table tr td:nth-child(1){
+    width: 5%;
+}
+.QLBV table tr td:nth-child(2){
+    width: 5%;
+}
+.QLBV table tr td:nth-child(3){
+    width: 20%;
+}
+.QLBV table tr td:nth-child(4){
+    width: 20%;
+}
+.QLBV table tr td:nth-child(5){
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+}
+.QLBV table tr td:nth-child(5) p{
+    position: absolute;
+    top: 10px;
+}
+.QLBV table tr td:nth-child(6){
+    width: 10%;
+}
+.QLBV table tr td:nth-child(7){
+    width: 15%;
+}
+.QLBV table tr td img{
+    width: 60%;
+}
+/* end quản lý bài viết */
